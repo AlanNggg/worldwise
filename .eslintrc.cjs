@@ -29,5 +29,6 @@ module.exports = {
     'react/require-default-props': 0,
     'jsx-a11y/label-has-associated-control': 0,
     'import/prefer-default-export': 0,
+    '@typescript-eslint/no-explicit-any': 0,
   },
 };
