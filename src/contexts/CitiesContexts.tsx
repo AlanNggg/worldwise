@@ -109,7 +109,7 @@ function CitiesProvider({ children }: PropsWithChildren) {
         });
       }
     },
-    [currentCity]
+    [currentCity?.id]
   );
 
   const createCity = useCallback(async (newCity: NewCity) => {
